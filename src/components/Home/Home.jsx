@@ -1,5 +1,4 @@
 import React from "react";
-import style from "./home.module.css";
 import header from "../../assets/header.jpg";
 import imghtml from "../../assets/html.png";
 import imgcss from "../../assets/css.png";
@@ -372,9 +371,9 @@ export default function Home() {
             <div className="flex flex-wrap  mb-10 md:w-[80%] w-[95%] mx-auto">
               <div className="w-full md:w-1/3 text-center ">
                 <div className="border-blue-500 border mr-3 mb-3 py-2 px-2 rounded-lg transition-transform duration-500 ease-out transform  hover:scale-105">
-                  <div className="mt-4 ">
+                  <div className="mt-4">
                     <img
-                      className="animate-blink mx-auto"
+                      className="animate-blink mx-auto w-[100px]"
                       src={imghtml}
                       alt="pto"
                     />
@@ -386,7 +385,7 @@ export default function Home() {
                 <div className="border-blue-500 border mr-3 mb-3 py-2 px-2 rounded-lg transition-transform duration-500 ease-out transform  hover:scale-105">
                   <div className="mt-4">
                     <img
-                      className="animate-blink mx-auto"
+                      className="animate-blink mx-auto w-[100px]"
                       src={imgcss}
                       alt="pto"
                     />
@@ -398,7 +397,7 @@ export default function Home() {
                 <div className="border-blue-500 border mr-3 mb-3 py-2 px-2 rounded-lg transition-transform duration-500 ease-out transform  hover:scale-105">
                   <div className="mt-4">
                     <img
-                      className="animate-blink mx-auto"
+                      className="animate-blink mx-auto w-[100px]"
                       src={imgjs}
                       alt="pto"
                     />
@@ -410,7 +409,7 @@ export default function Home() {
                 <div className="border-blue-500 border mr-3 mb-3 py-2 px-2 rounded-lg transition-transform duration-500 ease-out transform  hover:scale-105">
                   <div className="mt-4">
                     <img
-                      className="animate-blink mx-auto"
+                      className="animate-blink mx-auto w-[100px]"
                       src={imgreact}
                       alt="pto"
                     />
@@ -422,7 +421,7 @@ export default function Home() {
                 <div className="border-blue-500 border mr-3 mb-3 py-2 px-2 rounded-lg transition-transform duration-500 ease-out transform  hover:scale-105">
                   <div className="mt-4">
                     <img
-                      className="animate-blink mx-auto"
+                      className="animate-blink mx-auto w-[100px]"
                       src={imgtailwind}
                       alt="pto"
                     />
@@ -434,7 +433,7 @@ export default function Home() {
                 <div className="border-blue-500 border mr-3 mb-3 py-2 px-2 rounded-lg transition-transform duration-500 ease-out transform  hover:scale-105">
                   <div className="mt-4">
                     <img
-                      className="animate-blink mx-auto"
+                      className="animate-blink mx-auto w-[100px]"
                       src={imgredux}
                       alt="pto"
                     />
@@ -446,7 +445,7 @@ export default function Home() {
                 <div className="border-blue-500 border mr-3 mb-3 py-2 px-2 rounded-lg transition-transform duration-500 ease-out transform  hover:scale-105">
                   <div className="mt-4">
                     <img
-                      className="animate-blink mx-auto"
+                      className="animate-blink mx-auto w-[100px]"
                       src={imgrouter}
                       alt="pto"
                     />
@@ -458,7 +457,7 @@ export default function Home() {
                 <div className="border-blue-500 border mr-3 mb-3 py-2 px-2 rounded-lg transition-transform duration-500 ease-out transform  hover:scale-105">
                   <div className="mt-4">
                     <img
-                      className="animate-blink mx-auto"
+                      className="animate-blink mx-auto w-[100px]"
                       src={imggit}
                       alt="pto"
                     />
@@ -470,7 +469,7 @@ export default function Home() {
                 <div className="border-blue-500 border mr-3 mb-3 py-2 px-2 rounded-lg transition-transform duration-500 ease-out transform  hover:scale-105">
                   <div className="mt-4">
                     <img
-                      className="animate-blink mx-auto"
+                      className="animate-blink mx-auto w-[100px]"
                       src={imggithub}
                       alt="photo"
                     />
