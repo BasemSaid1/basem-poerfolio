@@ -31,11 +31,18 @@ export default function About() {
                 <p className="border rounded py-2 px-3 me-2 mt-5">HTML</p>
                 <p className="border rounded py-2 px-3 me-2 mt-5">CSS</p>
                 <p className="border rounded py-2 px-3 me-2 mt-5">JAVASCRIPT</p>
+                <p className="border rounded py-2 px-3 me-2 mt-5">Bootstrap</p>
                 <p className="border rounded py-2 px-3 me-2 mt-5">REACT.JS</p>
                 <p className="border rounded py-2 px-3 me-2 mt-5">TAILWIND</p>
                 <p className="border rounded py-2 px-3 me-2 mt-5">REDUX</p>
                 <p className="border rounded py-2 px-3 me-2 mt-5">
                   REACT ROUTER DOM
+                </p>
+                <p className="border rounded py-2 px-3 me-2 mt-5">TypeScript</p>
+                <p className="border rounded py-2 px-3 me-2 mt-5">Sass</p>
+                <p className="border rounded py-2 px-3 me-2 mt-5">Next.JS</p>
+                <p className="border rounded py-2 px-3 me-2 mt-5">
+                  Material Ui
                 </p>
                 <p className="border rounded py-2 px-3 me-2 mt-5">CLEAN CODE</p>
                 <p className="border rounded py-2 px-3 me-2 mt-5">GIT</p>

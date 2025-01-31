@@ -8,6 +8,10 @@ export default function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <>
       <nav className="bg-black z-50 fixed top-0 left-0 right-0">
@@ -42,14 +46,19 @@ export default function Navbar() {
           >
             <ul className="font-medium flex flex-col items-center p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0">
               <li>
-                <NavLink to="/" className="py-2 px-3 text-white inline-block ">
+                <NavLink
+                  to="/"
+                  className="py-2 px-3 text-white inline-block"
+                  onClick={closeMenu}
+                >
                   HOME
                 </NavLink>
               </li>
               <li>
                 <NavLink
                   to="/about"
-                  className="py-2 px-3 text-white inline-block "
+                  className="py-2 px-3 text-white inline-block"
+                  onClick={closeMenu}
                 >
                   ABOUT
                 </NavLink>
@@ -57,7 +66,8 @@ export default function Navbar() {
               <li>
                 <NavLink
                   to="/projects"
-                  className="py-2 px-3 text-white inline-block "
+                  className="py-2 px-3 text-white inline-block"
+                  onClick={closeMenu}
                 >
                   PROJECTS
                 </NavLink>
@@ -65,7 +75,8 @@ export default function Navbar() {
               <li>
                 <NavLink
                   to="/contact"
-                  className="py-2 px-3 text-white inline-block "
+                  className="py-2 px-3 text-white inline-block"
+                  onClick={closeMenu}
                 >
                   CONTACT
                 </NavLink>
